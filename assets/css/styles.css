@@ -1,11 +1,28 @@
-body {
-    font-family: Arial, sans-serif;
-}
-
 h1 {
-    margin-bottom: 30px;
+    text-align: center;
 }
 
-#recipes .card {
-    margin-bottom: 20px;
+body {
+    background-image: url('../img/comida.jpg');
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente */
+}
+#recipeForm{
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(202, 232, 235);
 }

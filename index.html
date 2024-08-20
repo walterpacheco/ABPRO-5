@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Que se Come Hoy</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center mt-5">Que se Come Hoy</h1>
+        <form id="recipeForm" class="mb-4">
+            <div class="form-group">
+                <label for="searchInput">Buscar receta por nombre:</label>
+                <input type="text" id="searchInput" class="form-control" placeholder="Ingresa el nombre de la receta" required pattern="[A-Za-z\s]+" title="Solo letras y espacios son permitidos">
+            </div>
+            <button type="submit" class="btn btn-primary">Buscar</button>
+        </form>
+
+        <div id="recipes" class="row"></div>
+    </div>
+
+    <script type="module" src="/assets/js/app.js"></script>
+</body>
+</html>
